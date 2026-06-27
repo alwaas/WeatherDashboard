@@ -564,6 +564,21 @@ function App() {
             </div>
           </div>
         </section>
+
+        <footer className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 text-slate-400">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="text-sm uppercase tracking-[0.35em] text-sky-400">Built by</p>
+              <p className="mt-2 text-lg font-semibold text-slate-200">Mohd Zaid Alwaas</p>
+              <p className="text-sm text-slate-500">Weather dashboard with live search, favorites, map support, and health metrics.</p>
+            </div>
+            <div className="flex flex-wrap items-center gap-3 text-sm">
+              <a href="https://www.instagram.com/zaid_alwaas" target="_blank" rel="noreferrer noopener" className="rounded-full border border-slate-700 bg-slate-950/80 px-4 py-2 transition hover:border-slate-500 hover:text-white">Instagram</a>
+              <a href="https://github.com/alwaas" target="_blank" rel="noreferrer noopener" className="rounded-full border border-slate-700 bg-slate-950/80 px-4 py-2 transition hover:border-slate-500 hover:text-white">GitHub</a>
+            </div>
+          </div>
+          <div className="mt-4 border-t border-slate-800 pt-4 text-sm text-slate-500">© 2026 Mohd Zaid Alwaas. All rights reserved. Free for use.</div>
+        </footer>
       </div>
     </div>
   )
